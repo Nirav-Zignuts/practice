@@ -11,7 +11,7 @@ To run this project, you will need to have the following things installed:
 Python 3.9 +
 Docker and Docker Compose
 Django 
-MySQL ( database used in this project)
+PostgreSQL ( database used in this project)
 
 
 
