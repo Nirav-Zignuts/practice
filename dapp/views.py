@@ -21,7 +21,9 @@ class StudentAPIView(APIView):
         return Response(serializer.errors)
 
     def put(self,request,pk=None):
-        student = Student.objects.get(id=pk)
+        print(pk)
+        print("helo world")
+        student = Student.objects.get(pk=pk)
         serializer = StudentSerializer(instance=student,data=request.data)
         if serializer.is_valid():
             serializer.save()
