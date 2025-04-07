@@ -1,4 +1,4 @@
-# Practice Docker Django Project
+# Practice Docker Django Project.
 
 This repository is a practice project for setting up and running a Django application using Docker and Docker Compose.
 
